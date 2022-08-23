@@ -4,7 +4,7 @@ A clean, beautiful and responsive portfolio.
 
 ## Demo
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://quick-bites.netlify.app/)
+[![](https://cdn-icons-png.flaticon.com/128/3170/3170733.png)](https://quick-bites.netlify.app/)
 
 ## Features
 
