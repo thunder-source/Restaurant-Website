@@ -1,6 +1,6 @@
 # Restaurant Website
 
-A clean, beautiful and responsive portfolio.
+A clean, beautiful and responsive Restaurant Single Page Website.
 
 ## Demo
 
