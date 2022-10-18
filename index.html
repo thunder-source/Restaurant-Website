@@ -21,7 +21,7 @@
 
     <header>
 
-        <a href="#" class="logo"><i class="fas fa-utensils"></i>Thunder</a>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Quick Bites</a>
 
         <div id="menu-bar" class="fas fa-bars"></div>
 
@@ -404,22 +404,23 @@
                 <img src="images/order-img.jpg" alt="">
             </div>
 
-            <form action="#">
+            <form action="https://formspree.io/f/mvoybgyo" method="POST">
 
                 <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
+                    <input type="text" name="name" placeholder="name" required>
+                    <input type="email" name="email" placeholder="email" required>
                 </div>
 
                 <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="food name">
+                    <input type="number" name="number" placeholder="number" required>
+                    <input type="text" required name="food_name" placeholder="food name">
                 </div>
 
-                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="address" required name="address" name="" id="" cols="30" rows="10"></textarea>
 
-                <input type="submit" value="order now" class="btn">
-
+                <button type="submit" onclick="onSubmitForm()" class="btn">
+                    order now
+                </button>
             </form>
 
         </div>
